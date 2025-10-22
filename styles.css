@@ -27,3 +27,22 @@ footer {
   color: white;
   padding: 15px;
 }
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #023e8a;
+  margin: 0;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
